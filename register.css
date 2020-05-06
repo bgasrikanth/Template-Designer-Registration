@@ -1,0 +1,29 @@
+
+body{
+	background-color:#222;
+	width:auto;
+	height:auto;
+    }
+    .td_container{
+	width:100%;
+
+   }
+   .td_subcontainer{
+	padding:0 10px 5px 10px;
+  	position: fixed;
+	top: 50%;
+  	left: 50%;
+	/* bring your own prefixes */
+  	transform: translate(-50%, -50%);
+  	background-color:#ddd;
+	}
+    .row, .row > label, .row > label > input{
+	display:block;
+	}
+    .txt-control, .row > label{
+	padding:2px;
+	width:100%
+	}
+    .btn{
+	margin:15px 2px 5px 2px;
+}
