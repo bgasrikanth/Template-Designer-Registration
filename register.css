@@ -1,20 +1,29 @@
-@media 
+
 body{
-  background-color:#222;
+	background-color:#222;
+	width:auto;
+	height:auto;
+    }
+    .td_container{
+	width:100%;
+
+   }
+   .td_subcontainer{
+	padding:0 10px 5px 10px;
+  	position: fixed;
+	top: 50%;
+  	left: 50%;
+	/* bring your own prefixes */
+  	transform: translate(-50%, -50%);
+  	background-color:#ddd;
+	}
+    .row, .row > label, .row > label > input{
+	display:block;
+	}
+    .txt-control, .row > label{
+	padding:2px;
+	width:100%
+	}
+    .btn{
+	margin:15px 2px 5px 2px;
 }
-.zp_center{
-            width: 300px; 
-            background-color:#ddd; 
-            color: #fff; 
-            padding: 10px;
-            margin:10px; 
-            border-radius: 0.2cm;
-        }
-        .zp_header{
-            font-family: 'Times New Roman', Times, serif;
-            color:#ddd;
-            font-size: 0.7cm;
-        }
-        hr{
-            border-bottom: 1px solid darkslategray;
-        }
